@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+html {
+    background: #e4f5b1;
+    scroll-behavior: smooth;
+    font-family: 'Outfit', sans-serif;
+}
+header {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration-color: chocolate;
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+.ito {
+    font-size: xx-large;
+    text-align: right;
+}
+.logo{
+  object-position: left 100% bottom 25%;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.menu{
+    
+    background: #e8e8e8;
+    list-style: none;
+    padding: 0;
+    background-color: #512b52;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li{
+    display: inline-block;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li a .con{
+    text-align: right;
+}
+table{
+    width: 70%;
+}
+}
+th1{
+    margin: auto;
+    border: 5px solid black;
+}
+
+.uno{
+    text-align: center;
+    font-size: 30px;
+}
+
+.tnov{
+    font-size: 1.8rem;
+    margin: auto;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.tnov2{
+    font-size: 1.8rem;
+    margin: auto;
+    border: 5px solid black;
+    padding: 10px;
+}
+.decada{
+    font-size: 1.8rem;
+    margin: auto;
+}
+
+footer{
+    position:static;
+    height: 200;
+    height: 200;
+    top: auto;
+    text-align: center;
+}
