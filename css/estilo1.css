@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 html {
-    background: #e4f5b1;
+    background: #B4E4FF;
     scroll-behavior: smooth;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 header {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shantell Sans', cursive;
     text-decoration-color: chocolate;
     display: flex;
     text-align: right;
@@ -37,10 +36,11 @@ h2 {
     background: #e8e8e8;
     list-style: none;
     padding: 0;
-    background-color: #512b52;
+    background-color: #7286D3;
     width: 90%;
     max-width: 1000px;
     margin: auto;
+    text-align: center;
 }
 
 .menu li{
@@ -50,7 +50,7 @@ h2 {
 }
 
 .menu li a:hover{
-    background: #ef8354;
+    background: #8EA7E9;
 }
 .menu li a{
     text-decoration: none;
