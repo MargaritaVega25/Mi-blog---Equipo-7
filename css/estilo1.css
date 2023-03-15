@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
 html {
     background: #B4E4FF;
     scroll-behavior: smooth;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Shantell Sans', cursive;
 }
 header {
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration-color: chocolate;
     display: flex;
     text-align: right;
@@ -14,6 +15,7 @@ header {
 .ito {
     font-size: xx-large;
     text-align: right;
+    margin-top: 40px;
 }
 
 .logo{
@@ -66,6 +68,12 @@ h2 {
     padding: 10px;
     text-align: center;
 }
+
+.video{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
 .pdf{
     display: flex;
     justify-content: center;
@@ -73,3 +81,4 @@ h2 {
 footer{
     text-align: center;
 }
+

@@ -1,97 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shantell+Sans&display=swap');
-
-html {
-    background: #e4f5b1;
-    scroll-behavior: smooth;
-    font-family: 'Josefin Sans', sans-serif;
-}
-header {
-    font-family: 'Shantell Sans', cursive;
-    text-decoration-color: chocolate;
-    display: flex;
-    text-align: right;
-    justify-content: space-between;
-}
-.ito {
-    font-size: xx-large;
-    text-align: right;
-}
-.logo{
-  object-position: left 100% bottom 25%;
-}
-h2 {
-    font-size: 50px;
-    text-align: center;
-}
-
-
-.menu{
-    
-    background: #e8e8e8;
-    list-style: none;
+*{
+    margin: 0;
     padding: 0;
-    background-color: #512b52;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
+    box-sizing: border-box;
 }
 
-.menu li{
-    display: inline-block;
-    display: inline-block;
-    text-align: center;
+.carrousel{
+    width: 100%;
 }
 
-.menu li a:hover{
-    background: #ef8354;
+.conteCarrousel{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
 }
 
-.menu li a{
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: rgb(226, 50, 50);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(200, 226, 50);
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
     text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
     color: white;
-    padding: 20px;
+}
+
+.foto{
+    width: 60%;
     display: block;
-}
-.menu li a .con{
-    text-align: right;
-}
-table{
-    width: 70%;
-}
-}
-th1{
     margin: auto;
-    border: 5px solid black;
 }
 
-.uno{
+.rebe{
+    height: 150px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.aud{
+    display: block;
+    margin: auto;
+}
+
+h3, h4{
     text-align: center;
-    font-size: 30px;
-}
-
-.tnov{
-    font-size: 1.8rem;
-    margin: auto;
-    border: 5px solid black;
-    padding: 10px;
-    text-align: center;
-}
-
-.tnov2{
-    font-size: 1.8rem;
-    margin: auto;
-    border: 5px solid black;
-    padding: 10px;
-}
-.decada{
-    font-size: 1.8rem;
-    margin: auto;
-}
-
-footer{
-    position:static;
-    height: 200;
-    height: 200;
-    top: auto;
-    text-align: center;
+      width: 100%;
+  display: flex;
+  justify-content: center;
 }
